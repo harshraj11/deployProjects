@@ -1,4 +1,4 @@
 FROM openjdk:17-jdk-alpine
 MAINTAINER baeldung.com
-COPY target/docker-message-server-1.0.0.jar message-server-1.0.0.jar
-ENTRYPOINT ["java","-jar","/message-server-1.0.0.jar"]
+COPY target/weatherApplication-0.0.1-SNAPSHOT.jar weatherApplication-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/weatherApplication-0.0.1-SNAPSHOT.jar"]
